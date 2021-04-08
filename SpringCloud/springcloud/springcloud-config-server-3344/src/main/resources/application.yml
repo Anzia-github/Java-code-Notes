@@ -1,0 +1,12 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/azw13455688/springcloud-config.git
+#        default-label: main
